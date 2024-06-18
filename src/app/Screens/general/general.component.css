@@ -60,7 +60,6 @@ body {
     margin-bottom: 5px; /* Espacio inferior en el hover */
 }
 
-
 /* Botones inferiores */
 .bottom-buttons {
     margin-top: auto;
@@ -69,8 +68,8 @@ body {
 }
 
 /* Asegúrate de que los estilos estén disponibles globalmente */
-.inicio-button{
-    color:#34495e;
+.inicio-button {
+    color: #34495e;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -86,7 +85,6 @@ body {
     align-items: center;
     padding: 10px 15px;
     cursor: pointer;
-    
 }
 
 .inicio-button .material-icons,
@@ -98,7 +96,6 @@ body {
 .logout:hover {
     text-decoration: underline;
 }
-
 
 /* Separador */
 .divider {
@@ -121,9 +118,7 @@ header {
     align-items: center;
     justify-content: space-between; /* Espaciado entre elementos */
     margin-bottom: 20px; /* Separación del contenido principal */
-    background-color: #f4f4f4; /* Fondo del encabezado */
     padding: 10px 20px; /* Padding del encabezado */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra para el encabezado */
 }
 
 header .inicio-button {
@@ -162,12 +157,13 @@ header .profile .username {
     margin-right: 20px; /* Espacio a la derecha del contenedor */
 }
 
-.category input{
-    width: 80%; /* El input y el botón ocupan el 80% del contenedor de categoría */
+.category input {
+    width: 80%; /* El input ocupa el 80% del contenedor de categoría */
     margin: 10px 0;
 }
+
 .category button {
-    width: 40%; /* El input y el botón ocupan el 80% del contenedor de categoría */
+    width: 40%; /* El botón ocupa el 40% del contenedor de categoría */
     margin: 10px 0;
 }
 
@@ -193,8 +189,9 @@ header .profile .username {
 /* Estilo para la tabla */
 .table {
     flex: 0 0 70%; /* Ocupa el 70% del ancho */
-    padding: 10px;
+    padding: 20px;
     overflow-x: auto; /* Permite desplazamiento horizontal si la tabla es demasiado ancha */
+    margin-right: 20px; /* Añade margen a la derecha */
 }
 
 .table table {
